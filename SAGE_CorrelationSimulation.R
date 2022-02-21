@@ -38,7 +38,7 @@ corsim <- function(mu.vector, sigma.matrix, n){
 ###########################################################################
 
 
-# create the variance covariance matrix for different correlations 
+# create different correlation matrices
 sigma.pos1 <- rbind(c(1,1), c(1,1)) # r = 1
 sigma.neg1 <- rbind(c(1,-1), c(-1,1)) # r = -1
 sigma.0 <- rbind(c(1,0), c(0,1)) # r = 0
